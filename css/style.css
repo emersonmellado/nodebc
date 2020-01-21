@@ -1,0 +1,31 @@
+a {
+    color: red;
+}
+a:first-of-type{
+    color: purple;
+}
+a:last-of-type{
+    color: yellow;
+}
+h1:first-letter{
+    color: black;
+}
+header h1 {
+    color: #00FF02;
+}
+section h1 {
+    color: orange;
+}
+/* li {
+    color: #FF1694;
+}
+li:first-of-type{
+    color: black;
+} */
+li {color: black;}
+li ~ li {color: #FF1964;
+           }
+
+p ~ p  {
+    color: darkgoldenrod;
+}
